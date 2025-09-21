@@ -3,6 +3,10 @@
     {
       "source": "/api/:path*",
       "destination": "https://salesapi.niveosys.org/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
