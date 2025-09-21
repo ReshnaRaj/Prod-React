@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://salesapi.niveosys.org/api";
+const BASE_URL = "/api";
 
 export const api = {
   // Products
